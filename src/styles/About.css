@@ -1,0 +1,75 @@
+.about-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: linear-gradient(120deg, #f5f6fa 0%, #e0eafc 100%);
+  min-height: 100vh;
+}
+
+.about-content {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 2.5rem 3rem;
+  box-shadow: 0 8px 32px rgba(44, 62, 80, 0.10);
+  border-left: 6px solid #3498db;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  transition: box-shadow 0.3s;
+}
+
+.about-content:hover {
+  box-shadow: 0 12px 40px rgba(44, 62, 80, 0.18);
+}
+
+.about-content h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 2.5rem;
+  font-size: 2.7rem;
+  letter-spacing: 1px;
+}
+
+.about-section {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1.5px solid #ecf0f1;
+  transition: background 0.2s;
+}
+
+.about-section:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.about-section h2 {
+  color: #3498db;
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.about-section p {
+  color: #4c5353;
+  line-height: 1.8;
+  margin: 0;
+  font-size: 1.08rem;
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    padding: 1rem;
+  }
+
+  .about-content {
+    padding: 1.2rem 0.7rem;
+    border-left-width: 3px;
+  }
+  .about-content h1 {
+    font-size: 2rem;
+  }
+  .about-section h2 {
+    font-size: 1.2rem;
+  }
+} 
